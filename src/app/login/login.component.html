@@ -1,0 +1,16 @@
+<mat-card style="width: 30%; margin-left:35%; margin-bottom: 100%; margin-top: 9%;">
+    <mat-card-content>
+    <form style="margin:auto; width: 220px;" #data="ngForm" (ngSubmit)="login()">
+        <h1> Login Form </h1>
+        <mat-form-field>
+        <mat-label>Username : </mat-label> 
+         <input matInput placeholder="Enter Username" name="username" [(ngModel)]="username" required> 
+        </mat-form-field>
+        <mat-form-field>
+         <mat-label>Password : </mat-label>
+         <input matInput type="password" placeholder="Enter Password" name="password"[(ngModel)]="password" required>
+        </mat-form-field>
+         <button mat-raised-button color="primary">Login</button>   
+         </form>
+        </mat-card-content>
+</mat-card>

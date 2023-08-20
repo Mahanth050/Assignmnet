@@ -1,0 +1,22 @@
+
+<mat-card style="width:30%;">
+
+  <mat-card-content *ngFor="let user of jsondata">
+    <hr>
+
+    <p style="font-family: times, serif; font-size:22px; font-style:italic;"> <strong>Name : </strong> {{ user.item
+
+      }}</p>
+
+    <p style="font-family: times, serif; font-size:22px; font-style:italic;"><strong>Price : </strong>{{ user.price
+
+      }}</p>
+
+      <p><img style="width: 156px;height:95px;" src="{{user.image}}"></p>
+
+  </mat-card-content>
+
+</mat-card>
+
+ 
+

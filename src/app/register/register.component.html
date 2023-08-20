@@ -1,0 +1,23 @@
+<mat-card style="width: 30%; margin-left: 35%; margin-bottom: 100%; margin-top: 8%;">
+    <mat-card-header>
+      <h1 style="color: black; text-align:left;">Registration Form</h1>
+    </mat-card-header>
+    <mat-card-content>
+      <form style="margin:auto; width: 220px;" #registerForm="ngForm" (ngSubmit)="onSubmit(registerForm)">
+        <mat-form-field>
+          <input matInput placeholder="Username" type="text" name="username" ngModel  ><br>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+          <input matInput placeholder="Email" type="text" name="email" ngModel><br>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+          <input matInput type="password" placeholder="Password" name="Password" ngModel>
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="primary" type="submit">Register</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  

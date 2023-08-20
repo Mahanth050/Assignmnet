@@ -1,0 +1,107 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstname": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "phonenumber": 9133629207,
+      "id": 2
+    },
+    {
+      "firstname": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "phonenumber": 9133629207,
+      "id": 3
+    },
+    {
+      "firstname": "s,md ",
+      "email": "lksd",
+      "phonenumber": 987654,
+      "id": 4
+    },
+    {
+      "firstname": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "phonenumber": 9133629207,
+      "comment": "hii",
+      "id": 5
+    },
+    {
+      "firstname": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "phonenumber": 9133629207,
+      "comment": "hii",
+      "id": 6
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "item": "sugar",
+      "price": 80,
+      "image": "https://rukminim2.flixcart.com/image/832/832/kd94uq80/sugar/y/g/c/1-pure-and-hygenic-sugar-pouch-refined-sugar-madhur-crystal-original-imafu76x45yhsyga.jpeg?q=70"
+    },
+    {
+      "id": 2,
+      "item": "Rice",
+      "price": 1000,
+      "image": "https://th.bing.com/th/id/OIP.IiYxfxf5NaWOoPxxUFrPdwHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.1&pid=1.7"
+    },
+    {
+      "id": 3,
+      "item": "Bengal Gram",
+      "price": 50,
+      "image": "https://m.media-amazon.com/images/I/41K17Ch-ijL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": 4,
+      "item": "Oil",
+      "price": 2000,
+      "image": "https://rukminim2.flixcart.com/image/832/832/kqidx8w0/edible-oil/y/y/r/kachi-ghani-pouch-mustard-oil-fortune-original-imag4gb3y5auktfg.jpeg?q=70"
+    }
+  ],
+  "users": [
+    {
+      "username": "",
+      "email": "",
+      "Password": ""
+    },
+    {}
+  ],
+  "data": [
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "username": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "username": "subash",
+      "email": "shubash@gmail.com",
+      "password": "ghjklghjk",
+      "id": 4
+    },
+    {
+      "username": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "password": "asdfghj",
+      "id": 5
+    }
+  ]
+}
