@@ -1,39 +1,78 @@
-nav img{
-    width: 100px;;
-  }
-  nav {
-    background-color: rgb(190, 216, 226);
-    padding: 10px;
-  }
-  nav ul{
-    float:right;
-    list-style-type: none;
-  }
-  ul li
-  {
-    display: inline-block;
-    padding: 10px;
-  }
-  li a{
-    color:#fff;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  footer{
-    background-color: beige;
-    position:fixed;
-    left:10 ;
-    bottom:0;
-    width: 100;
-    text-align: right;
-    
-  }
-  .custom-button {
-    padding: 10px 20px; /* Adjust padding to increase button size */
-    font-size: 16px;   /* Adjust font size */
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+nav img {
+  width: 100px;
+  ;
+}
+
+nav {
+  background-color: rgb(190, 216, 226);
+  padding: 10px;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: beige;
+  position: fixed;
+  left: 10;
+  bottom: 0;
+  width: 100;
+  text-align: right;
+
+}
+
+.custom-button {
+  padding: 10px 20px;
+  /* Adjust padding to increase button size */
+  font-size: 16px;
+  /* Adjust font size */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+mat-card {
+
+  width: 100%;
+
+
+
+  border-collapse: collapse;
+
+}
+
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+  margin-top: 1%;
+
+}
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -1px;
+}
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

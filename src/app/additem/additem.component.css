@@ -20,7 +20,7 @@ nav img{
     cursor: pointer;
   }
   .custom-button {
-    padding: 20px 30px; /* Adjust padding to increase button size */
+    padding: 10px 20px; /* Adjust padding to increase button size */
     font-size: 16px;   /* Adjust font size */
     background-color: #007bff;
     color: white;
@@ -28,23 +28,3 @@ nav img{
     border-radius: 5px;
     cursor: pointer;
   }
-
-  
-.column {
-  float: left;
-  width: 30%;
-  padding: 0 10px;
-  margin-top: 1%;
-
-}
-/* Remove extra left and right margins, due to padding */
-.row {
-  margin: 0 -1px;
-}
-/* Clear floats after the columns */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}

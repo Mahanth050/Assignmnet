@@ -38,5 +38,10 @@ url3:any = 'http://localhost:3000/data';
   getSharedData(): any{
       return this.sharedData;
   }
+  createProduct(productData: any): Observable<any> {
+
+    return this.obj.post<any>(this.url1, productData);
+
+  }
   
 }

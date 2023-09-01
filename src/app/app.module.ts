@@ -20,6 +20,7 @@ import{ MatButtonModule } from '@angular/material/button';
 import{MatInputModule} from '@angular/material/input';
 import { AdminComponent } from './admin/admin.component';
 import { UpdateproductComponent } from './updateproduct/updateproduct.component';
+import { AdditemComponent } from './additem/additem.component';
 
 
 
@@ -33,6 +34,7 @@ import { UpdateproductComponent } from './updateproduct/updateproduct.component'
     RegisterComponent,
     AdminComponent,
     UpdateproductComponent,
+    AdditemComponent,
     
   ],
   imports: [
