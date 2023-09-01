@@ -7,3 +7,10 @@ h1{
 button{
     margin-left: 23%;
 }
+nav img{
+    width: 100px;;
+  }
+  nav {
+    background-color: rgb(190, 216, 226);
+    padding: 10px;
+  }

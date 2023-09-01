@@ -8,28 +8,29 @@ import { Route,Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'Assignmnet';
-  constructor(private router:Router){
-  }
-  homeclick(){
-    this.router.navigate(['Home']);
+//   constructor(private router:Router){
+//   }
+//   homeclick(){
+//     this.router.navigate(['Home']);
 
-  }
-  cartclick(){
-    this.router.navigate(['Cart']);
+//   }
+//   cartclick(){
+//     this.router.navigate(['Cart']);
 
-  }
-  contactclick(){
-    this.router.navigate(['Contact']);
+//   }
+//   contactclick(){
+//     this.router.navigate(['Contact']);
 
-  }
-  loginclick(){
-    this.router.navigate(['Login']);
+//   }
+//   loginclick(){
+//     this.router.navigate(['Login']);
 
-  }
-  registerclick(){
-    this.router.navigate(['Register']);
+//   }
+//   registerclick(){
+//     this.router.navigate(['Register']);
 
-  }
+//   }
+// }
 }
 
 

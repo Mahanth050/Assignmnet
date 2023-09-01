@@ -18,6 +18,8 @@ import { RegisterComponent } from './register/register.component';
 import{ MatButtonModule } from '@angular/material/button';
 
 import{MatInputModule} from '@angular/material/input';
+import { AdminComponent } from './admin/admin.component';
+import { UpdateproductComponent } from './updateproduct/updateproduct.component';
 
 
 
@@ -29,6 +31,8 @@ import{MatInputModule} from '@angular/material/input';
     ContactComponent,
     LoginComponent,
     RegisterComponent,
+    AdminComponent,
+    UpdateproductComponent,
     
   ],
   imports: [

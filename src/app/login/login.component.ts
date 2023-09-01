@@ -19,16 +19,23 @@ export class LoginComponent {
   }
   login(): void{
     const user = this.users.find(u => u.username === this.username && u.password === this.password);
-    console.log(user);
+    if(user.role == 'admin')
+    {
+       this.router.navigate(['Admin']);
+    }
+    else{
     if (user) {
       console.log('Login successful');
       this.router.navigate(['Cart']);
-    } else {
+    } 
+    else 
+    {
       console.log('Invalid credentials');
       alert('Invalid Credentials');
       this.router.navigate(['Login']);
     
     }
+  }
 
 }
 }

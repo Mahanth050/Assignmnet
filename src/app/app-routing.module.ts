@@ -5,12 +5,17 @@ import { ContactComponent } from './contact/contact.component';
 import { CartComponent } from './cart/cart.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { AdminComponent } from './admin/admin.component';
+import { UpdateproductComponent } from './updateproduct/updateproduct.component';
 
 const routes: Routes = [{path:'Home',component:HomeComponent},
+{ path: '', redirectTo: '/Register', pathMatch: 'full' },
 {path:'Contact',component:ContactComponent},
 {path:'Cart',component:CartComponent},
 {path:'Login',component:LoginComponent},
-{path:'Register',component:RegisterComponent}];
+{path:'Register',component:RegisterComponent},
+{path:'Admin',component:AdminComponent},
+{path:'update',component:UpdateproductComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

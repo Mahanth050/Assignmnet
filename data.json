@@ -40,10 +40,10 @@
   ],
   "Products": [
     {
+      "item": "Tata-Sugar",
       "id": 1,
-      "item": "sugar",
-      "price": 80,
-      "image": "https://rukminim2.flixcart.com/image/832/832/kd94uq80/sugar/y/g/c/1-pure-and-hygenic-sugar-pouch-refined-sugar-madhur-crystal-original-imafu76x45yhsyga.jpeg?q=70"
+      "image": "https://rukminim2.flixcart.com/image/832/832/kd94uq80/sugar/y/g/c/1-pure-and-hygenic-sugar-pouch-refined-sugar-madhur-crystal-original-imafu76x45yhsyga.jpeg?q=70",
+      "price": 80
     },
     {
       "id": 2,
@@ -102,6 +102,25 @@
       "email": "mahanth050@gmail.com",
       "password": "asdfghj",
       "id": 5
+    },
+    {
+      "username": "admin",
+      "role": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 6
+    },
+    {
+      "username": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "Password": "0987654",
+      "id": 7
+    },
+    {
+      "username": "Mahanth",
+      "email": "mahanth050@gmail.com",
+      "Password": "1234567",
+      "id": 8
     }
   ]
 }

@@ -6,6 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ServiceService {
+  Data :any[]= [];
+  sharedData?:any;
 url:any='http://localhost:3000/posts';
 url1:any='http://localhost:3000/Products';
 url3:any = 'http://localhost:3000/data';
@@ -25,7 +27,16 @@ url3:any = 'http://localhost:3000/data';
   getusers():Observable<any>{
     return this.obj.get<any[]>(this.url3);
   }
-  
-  
+  updateproduct(data: any): Observable<any> {
+    const url = `${this.url1}/${data.id}`;
+    return this.obj.put(url, data);
 
+  }
+  setSharedData(data: any) {
+    this.sharedData = data;
+  }
+  getSharedData(): any{
+      return this.sharedData;
+  }
+  
 }
