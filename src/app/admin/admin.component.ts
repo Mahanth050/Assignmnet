@@ -17,7 +17,7 @@ export class AdminComponent {
 
   update(data:any){
     this.serviceobj.setSharedData(data);
-    this.router.navigate(['update']);
+    this.router.navigate(['Admin']);
 
   }
 

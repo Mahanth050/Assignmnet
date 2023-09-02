@@ -58,10 +58,15 @@
       "image": "https://m.media-amazon.com/images/I/41K17Ch-ijL._SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
-      "id": 4,
       "item": "Oil",
-      "price": 2000,
-      "image": "https://rukminim2.flixcart.com/image/832/832/kqidx8w0/edible-oil/y/y/r/kachi-ghani-pouch-mustard-oil-fortune-original-imag4gb3y5auktfg.jpeg?q=70"
+      "id": 4,
+      "image": "https://rukminim2.flixcart.com/image/832/832/kqidx8w0/edible-oil/y/y/r/kachi-ghani-pouch-mustard-oil-fortune-original-imag4gb3y5auktfg.jpeg?q=70",
+      "price": 2000
+    },
+    {
+      "item_name": "dal",
+      "item_price": 1000,
+      "id": 5
     }
   ],
   "users": [
